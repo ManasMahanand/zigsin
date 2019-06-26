@@ -1,0 +1,312 @@
+p, ul {
+    font-size: 25px;
+}
+
+article {
+    margin-top: 26px;
+}
+
+#main-header {
+    position: fixed;
+    z-index: 100;
+
+    width: 100%;
+    height: 73px;
+
+    background-color: white;
+}
+
+#main-logo {
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-stretch: normal;
+    color: #707070;
+
+    margin-top: 23px;
+    margin-left: 23px;
+}
+
+#nav-dropdown {
+    float: right;
+
+    margin-right: 23px;
+    margin-top: 23px;
+
+    font-weight: bolder;
+}
+
+#nav-dropdown:hover {
+    cursor: pointer;
+}
+
+#home {
+    width: 100%;
+    height: 700px;
+
+    background-image: url('imgs/bookmark-bowl-candle-705675.jpg');
+    background-size: cover;
+    background-position: center;
+    background-position-y: 73px;
+
+    color: white;
+}
+
+#home-company-name {
+    font-size: 100px;
+
+    margin-left: 26px;
+    padding-top: 100px;
+}
+
+#home-subtext {
+    margin-left: 26px;
+    margin-top: 50px;
+
+    font-size: 2.5em;
+
+    max-height: 100px;
+}
+
+#contact-us-btn {
+    margin-left: 26px;
+    margin-top: 150px;
+
+    border: none;
+    width: 103px;
+    height: 36px;
+    border-radius: 18px;
+
+    background-color: #2680EB;
+    color: inherit;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#contact-us-btn:hover {
+    cursor: pointer;
+    background-color: rgb(98, 160, 236);
+}
+
+#about-us {
+    margin-top: 42px;
+    margin-left: 26px;
+    margin-right: 26px
+}
+
+#about-us .img-wrapper img {
+    width: 100%;
+}
+
+#team {
+    margin-left: 26px;
+    margin-right: 26px;
+}
+
+#team header, #team p {
+    margin-top: 50px;
+}
+
+#shailesh .profile {
+    background: url('imgs/shailesh.png');
+    background-position-x: -30px;
+    background-position-y: -50px;
+}
+
+#manas .profile {
+    background: url('imgs/manas.png');
+    background-position-x: -30px;
+    background-position-y: -50px;
+}
+
+#contact-us {
+    width: 100%;
+    height: 100vh;
+
+    margin-top: 100px;
+    padding-top: 50px;
+
+    background: url('imgs/communication-contact-conversation-33999.jpg');
+    background-size: cover;
+    background-position-y: 5px;
+}
+
+#contact-us * {
+    margin: 0px;
+}
+
+#contact-us header {
+    font-size: 50px;
+}
+
+#form-wrapper {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
+    font-size: 30px;
+}
+
+#form-group {
+    font-size: 30px;
+}
+
+#message {
+    height: 200px;
+}
+
+#submit-btn {
+    padding: 10px;
+    width: 100px;
+    font-size: 20px;
+    border-radius: 30px;
+}
+
+#footer {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    color: rgba(187, 187, 187, 0.5);
+    background-color: black;
+    font-size: 20px;
+}
+
+.bg-txt-1 {
+    font-size: 60px;
+}
+
+.bg-txt-2 {
+    font-size: 40px;
+}
+
+.bg-txt-3 {
+    font-size: 30px;
+}
+
+.container, .row {
+    margin: 0px;
+}
+
+.blue-txt {
+    color: #2680EB;
+}
+
+.gray-txt {
+    color: #707070;
+}
+
+.dark-wrapper {
+    background-color: rgba(0,0,0,0.5);
+    height: 100%;
+    width: 100%;
+}
+
+.card {
+    margin-top: 20px;
+    padding: 10px;
+    box-shadow: 5px 5px 20px;
+    height: 800px;
+}
+
+.img-wrapper {
+    text-align: center;
+}
+
+.profile {
+    position: relative;
+    margin: 50px auto 0px auto;
+
+    min-height: 200px;
+    min-width: 200px;
+    max-height: 290px;
+    max-width: 290px;
+    border-radius: 149px;
+}
+
+.txt-wrapper {
+    margin-left: 20px;
+}
+
+@media (min-width: 800px) {
+    p, ul {
+        font-size: 30px;
+    }
+
+    #main-header {
+        height: 100px;
+    }
+
+    #main-logo {
+        font-size: 30px;
+
+        margin-top: 30px;
+        margin-left: 100px;
+    }
+
+    #nav-dropdown {
+        margin-top: 30px;
+        margin-right: 100px;
+    }
+
+    #home {
+        height: 100vh;
+    }
+
+    #home-company-name {
+        font-size: 200px;
+        font-weight: 900;
+
+        padding-top: 150px;
+        margin-left: 100px;
+    }
+
+    #home-subtext {
+        font-size: 50px;
+
+        width: 60%;
+        margin-top: 10px;
+        margin-left: 100px;
+    }
+
+    #contact-us-btn {
+        margin-left: 100px;
+        font-size: 20px;
+
+        border-radius: 25px;
+
+        height: 50px;
+        width: 150px;
+
+        margin-top: 150px;
+    }
+
+    #about-us article * {
+        margin-left: 100px;
+    }
+
+    #team {
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-top: 100px;
+    }
+
+    #contact-us {
+        padding-left: 100px;
+    }
+
+    #contact-us header {
+        font-size: 100px;
+    }
+
+    #form-wrapper {
+        width: 50%;
+    }
+
+    .bg-txt-2 {
+        font-size: 60px;
+    }
+    
+    .bg-txt-3 {
+        font-size: 40px;
+    }
+}
