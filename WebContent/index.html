@@ -1,44 +1,145 @@
 <!DOCTYPE html>
-<html>
-<title>ZIGSIN</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-<style>
-body,h1 {font-family: "Raleway", sans-serif}
-body, html {height: 100%}
-.bgimg {
-  background-image: url('./imgs/ar-augmented-reality-elegant-1036645.jpg');
-  min-height: 100%;
-  background-position: 75% 20%;
-  background-size: cover;
-}
-.blck-background {
-background: rgba(0,0,0,0.7);
-}
-.w3-display-middle {
-display: flex;
-flex-flow: column;
-justify-content: center;
-text-align: center;
-height: 25%;
-width: 50%;
-}
-</style>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Frameworks -->
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  <!-- Linking local files -->
+  <script src="./script.js"></script>
+  <link rel="stylesheet" href="./style.css">
+  
+  <title>Document</title>
+</head>
 <body>
-
-<div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
-  <div class="w3-display-topleft w3-padding-large w3-xlarge">
-    ZIGSIN
+  <header id="main-header">
+    <div id="main-logo">
+      ZIGSIN
+    </div>
+    <div id="nav-dropdown">
+      &#9776;
+    </div>
+  </header>
+  <div id="home">
+    <div class="dark-wrapper">
+      <div class="bg-txt-1" id="home-company-name">
+        ZIGSIN
+      </div>
+      <div class="bg-txt-2" id="home-subtext">
+          Web Application Developers Based in Bangalore
+      </div>
+      <button id="contact-us-btn">
+        Contact Us
+      </button>
+    </div>
   </div>
-  <div class="w3-display-middle blck-background">
-    <h1 class="w3-jumbo w3-animate-top">COMING SOON</h1>
+  <div id="about-us">
+    <div class="img-wrapper">
+      <img src="imgs/apple-black-and-white-black-and-white-169573.jpg">
+    </div>
+    <article>
+      <header class="bg-txt-3 gray-txt" id="about-us-header">
+        ABOUT US
+      </header>
+      <header class="bg-txt-2 blue-txt">
+        We are passionate Web Developers!
+      </header>
+      <p class="gray-txt">
+        Technologies we are proficient at:
+      
+        <ul class="gray-txt">
+            <li>jQuery</li>
+            <li>Bootstrap</li>
+            <li>Java</li>
+            <li>Spring</li>
+            <li>Hibernate</li>
+            <li>Liberty</li>
+            <li>MySQL & SQL</li>
+        </ul>
+      </p>
+    </article>
   </div>
-  <div class="w3-display-bottomleft w3-padding-large">
-    Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a>
+  <div id="team">
+    <header class="bg-txt-3 gray-txt">
+      THE TEAM
+    </header>
+    <div class="container-fuid">
+      <div class="row">
+        <div class="col-lg-6" id="shailesh">
+          <div class="card mr-10">
+            <div class="profile"></div>
+            <div class="txt-wrapper">
+              <header class="bg-txt-3">
+                <span class="blue-txt">SHAILESH KUMAR</span>
+                <br>
+                <span class="gray-txt">BACK END JAVA DEVELOPER</span>
+              </header>
+              <ul class="gray-txt">
+                <li>Java</li>
+                <li>Spring</li>
+                <li>Hibernate</li>
+                <li>Liberty</li>
+                <li>MySQL & SQL</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6" id="manas">
+            <div class="card mr-10">
+                <div class="profile"></div>
+                <div class="txt-wrapper">
+                  <header class="bg-txt-3">
+                    <span class="blue-txt">MANAS MAHANAND</span>
+                    <br>
+                    <span class="gray-txt">FRONT END DEVELOPER</span>
+                  </header>
+                  <ul class="gray-txt">
+                    <li>Bootstrap 4</li>
+                    <li>jQuery</li>
+                    <li>SCSS</li>
+                    <li>Git</li>
+                    <li>Adobe XD</li>
+                    <li>Responsive Design</li>
+                  </ul>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
   </div>
-</div>
-
+  <div id="contact-us">
+      <div class="row">
+          <div id="form-wrapper">
+              <header>Contact Us</header>
+              <form action="mailto:matrusirifoundation@gmail.com" method="post" enctype="text/plain">
+                  <div class="form-group">
+                      <label for="InputEmail">Email address</label>
+                      <input type="email" class="form-control" id="InputEmail" name="mail" aria-describedby="emailHelp" placeholder="Enter email">
+                  </div>
+                  <div class="form-group">
+                      <label for="InputName">Name</label>
+                      <input type="text" class="form-control" id="InputName" name="name" placeholder="Name">
+                  </div>
+                  <div class="form-group">
+                      <label for="message">Message</label>
+                      <textarea class="form-control" id="message" name="comment" placeholder="Enter your message"></textarea>
+                  </div>
+                  <input id="submit-btn" type="submit" class="btn btn-primary" value="Send">
+              </form>
+          </div>
+      </div>
+  </div>
+  <div class="row" id=footer>
+      <footer class="col-sm-12">
+          &copy; Copyright 2019 <a href="http://manasmahanand.com">manas mahanand</a>
+      </footer>
+  </div>
 </body>
 </html>
