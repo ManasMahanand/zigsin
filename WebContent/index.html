@@ -23,9 +23,15 @@
     <div id="main-logo">
       ZIGSIN
     </div>
-    <div id="nav-dropdown">
-      &#9776;
+    <div id="mySidepanel" class="sidepanel">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="#home">Home</a>
+      <a href="#about-us">About Us</a>
+      <a href="#team">Our Team</a>
+      <a href="#contact-us">Contact Us</a>
     </div>
+
+    <button id="nav-dropdown" class="openbtn" onclick="openNav()">&#9776;</button>
   </header>
   <div id="home">
     <div class="dark-wrapper">
@@ -118,7 +124,7 @@
       <div class="row">
           <div id="form-wrapper">
               <header>Contact Us</header>
-              <form enctype="text/plain">
+              <form action="mailto:robot14.mahanand@gmail.com" method="POST" enctype="text/plain">
                   <div class="form-group">
                       <label for="InputEmail">Email address</label>
                       <input type="email" class="form-control" id="InputEmail" name="mail" aria-describedby="emailHelp" placeholder="Enter email">
