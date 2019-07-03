@@ -1,3 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+ul {
+    margin-left: 50px;
+}
+
 p, ul {
     font-size: 25px;
 }
@@ -107,6 +118,10 @@ article {
     margin-top: 50px;
 }
 
+#team ul {
+    margin-left: 50px;
+}
+
 #shailesh .profile {
     background: url('imgs/shailesh.png');
     background-position-x: -30px;
@@ -131,9 +146,6 @@ article {
     background-position-y: 5px;
 }
 
-#contact-us * {
-    margin: 0px;
-}
 
 #contact-us header {
     font-size: 50px;
@@ -147,8 +159,13 @@ article {
     font-size: 30px;
 }
 
-#form-group {
+.form-group {
     font-size: 30px;
+    
+}
+
+.btn {
+    margin-top: 50px;
 }
 
 #message {
@@ -203,7 +220,7 @@ article {
 
 .card {
     margin-top: 20px;
-    padding: 10px;
+    padding: 20px;
     box-shadow: 5px 5px 20px;
     height: 800px;
 }
@@ -227,7 +244,19 @@ article {
     margin-left: 20px;
 }
 
-@media (min-width: 800px) {
+@media (max-width: 1163px) {
+    .card{
+        height: 900px;
+    }
+}
+
+@media only screen and (max-width: 1082px) {
+    #contact-us {
+        height: 120vh;
+    }
+}
+
+@media only screen and (min-width: 800px) {
     p, ul {
         font-size: 30px;
     }
