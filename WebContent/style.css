@@ -40,7 +40,7 @@ article {
 
 .sidepanel {
     height: 100%; /* Specify a height */
-    width: 50vh; /* 0 width - change this with JavaScript */
+    width: 50vw; /* 0 width - change this with JavaScript */
     position: fixed; /* Stay in place */
     z-index: 1; /* Stay on top */
     top: 0;
